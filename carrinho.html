@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="shortcut icon" href="/imagens/logo.png" type="image/x-icon">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="/imagens/logo.png" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="shop.html">Todas as Roupas</a></li>
+                <li><a href="contact.html">Fale Conosco</a></li>
+                <li id="lg-bag"><a class="active" href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <p>Adicione cupons!!!</p>
+    </section>
+
+    <section id="cart" class="section-p1">
+        <table width="100%">
+            <thead>
+                <tr>
+                    <td>Removet</td>
+                    <td>Imagem</td>
+                    <td>Produto</td>
+                    <td>Preço</td>
+                    <td>Quantidade</td>
+                    <td>Total</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><a href="#"><i class="fas fa-times-circle" style="color:black"></i></a></td>
+                    <td><img src="/img produtos/f1.jpg" alt=""></td>
+                    <td>Camisa Florida Colorida</td>
+                    <td>R$150</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R$150</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fas fa-times-circle" style="color:black"></i></a></td>
+                    <td><img src="img produtos/f2.jpg" alt=""></td>
+                    <td>Camisa Florida COlorida</td>
+                    <td>R$150</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R$150</td>
+                </tr>
+                <tr>
+                    <td><a href="#"><i class="fas fa-times-circle" style="color:black"></i></a></td>
+                    <td><img src="/LenisSports/img produtos/f3.jpg" alt=""></td>
+                    <td>Camisa Colirida Florida</td>
+                    <td>R$150</td>
+                    <td><input type="number" value="1"></td>
+                    <td>R$150</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="cart-add" class="section-p1">
+        <div class="coupon">
+            <h3>Aplicar Cupons</h3>
+            <div>
+                <input type="text" placeholder="Adicione Seu Cupom">
+                <button class="normal">Aplicar</button>
+            </div>
+        </div>
+        <div class="subtotal">
+            <h3>Carrinho Total</h3>
+            <table>
+                <tr>
+                    <td>Preço Total</td>
+                    <td>R$450</td>
+                </tr>
+                <tr>
+                    <td>Frete</td>
+                    <td>Grátis</td>
+                </tr>
+                <tr>
+                    <td><strong>Total</strong></td>
+                    <td><strong>R$450</strong></td>
+                </tr>
+            </table>
+            <button class="normal">Processar Compra</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <h4>Contatos</h4>
+            <p><strong>Cidade:</strong> Dourados - MS</p>
+            <p><strong>Telefone Celular:</strong> +55 67 996134676</p>
+            <div class="follow">
+                <h4>Siga nas Redes</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Criado por Henrique Lenis | &#169; 2024</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
